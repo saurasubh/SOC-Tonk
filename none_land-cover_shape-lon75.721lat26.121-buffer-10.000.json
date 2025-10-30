@@ -1,0 +1,1745 @@
+{
+  "id": "093756e3-7610-4778-833e-eb26dc504016",
+  "params": {
+    "crosses_180th": false,
+    "crs": "GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]]",
+    "geojsons": "[{\"coordinates\": [[[75.01423754275554, 25.586853136904224], [76.42796814339395, 25.586853136904224], [76.42796814339395, 26.654293592890685], [75.01423754275554, 26.654293592890685], [75.01423754275554, 25.586853136904224]]], \"type\": \"Polygon\"}]",
+    "legend_nesting_custom_to_ipcc": {
+      "child": {
+        "key": [
+          {
+            "code": 1,
+            "color": "#787F1B",
+            "description": null,
+            "name_long": "Tree-covered",
+            "name_short": "Tree-covered"
+          },
+          {
+            "code": 2,
+            "color": "#FFAC42",
+            "description": null,
+            "name_long": "Grassland",
+            "name_short": "Grassland"
+          },
+          {
+            "code": 3,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Cropland",
+            "name_short": "Cropland"
+          },
+          {
+            "code": 4,
+            "color": "#00DB84",
+            "description": null,
+            "name_long": "Wetland",
+            "name_short": "Wetland"
+          },
+          {
+            "code": 5,
+            "color": "#E60017",
+            "description": null,
+            "name_long": "Artificial",
+            "name_short": "Artificial"
+          },
+          {
+            "code": 6,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Other land",
+            "name_short": "Bare land"
+          },
+          {
+            "code": 7,
+            "color": "#0053C4",
+            "description": null,
+            "name_long": "Water body",
+            "name_short": "Water body"
+          }
+        ],
+        "name": "Custom Land Cover",
+        "nodata": {
+          "code": -32768,
+          "color": "#000000",
+          "description": null,
+          "name_long": "No data",
+          "name_short": "No data"
+        }
+      },
+      "nesting": {
+        "-32768": [
+          -32768
+        ],
+        "1": [
+          1
+        ],
+        "2": [
+          2
+        ],
+        "3": [
+          3
+        ],
+        "4": [
+          4
+        ],
+        "5": [
+          5
+        ],
+        "6": [
+          6
+        ],
+        "7": [
+          7
+        ]
+      },
+      "parent": {
+        "key": [
+          {
+            "code": 1,
+            "color": "#787F1B",
+            "description": null,
+            "name_long": "Tree-covered",
+            "name_short": "Tree-covered"
+          },
+          {
+            "code": 2,
+            "color": "#FFAC42",
+            "description": null,
+            "name_long": "Grassland",
+            "name_short": "Grassland"
+          },
+          {
+            "code": 3,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Cropland",
+            "name_short": "Cropland"
+          },
+          {
+            "code": 4,
+            "color": "#00DB84",
+            "description": null,
+            "name_long": "Wetland",
+            "name_short": "Wetland"
+          },
+          {
+            "code": 5,
+            "color": "#E60017",
+            "description": null,
+            "name_long": "Artificial",
+            "name_short": "Artificial"
+          },
+          {
+            "code": 6,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Other land",
+            "name_short": "Bare land"
+          },
+          {
+            "code": 7,
+            "color": "#0053C4",
+            "description": null,
+            "name_long": "Water body",
+            "name_short": "Water body"
+          }
+        ],
+        "name": "UNCCD Land Cover",
+        "nodata": {
+          "code": -32768,
+          "color": "#000000",
+          "description": null,
+          "name_long": "No data",
+          "name_short": "No data"
+        }
+      }
+    },
+    "legend_nesting_esa_to_custom": {
+      "child": {
+        "key": [
+          {
+            "code": 10,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Cropland, rainfed",
+            "name_short": null
+          },
+          {
+            "code": 11,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Herbaceous cover",
+            "name_short": null
+          },
+          {
+            "code": 12,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Tree or shrub cover",
+            "name_short": null
+          },
+          {
+            "code": 20,
+            "color": "#76F1EF",
+            "description": null,
+            "name_long": "Cropland, irrigated or post-flooding",
+            "name_short": null
+          },
+          {
+            "code": 30,
+            "color": "#DAEC6C",
+            "description": null,
+            "name_long": "Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)",
+            "name_short": null
+          },
+          {
+            "code": 40,
+            "color": "#CDC369",
+            "description": null,
+            "name_long": "Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)",
+            "name_short": null
+          },
+          {
+            "code": 50,
+            "color": "#006313",
+            "description": null,
+            "name_long": "Tree cover, broadleaved, evergreen, closed to open (>15%)",
+            "name_short": null
+          },
+          {
+            "code": 60,
+            "color": "#009E1D",
+            "description": null,
+            "name_long": "Tree cover, broadleaved, deciduous, closed to open (>15%)",
+            "name_short": null
+          },
+          {
+            "code": 61,
+            "color": "#009E1D",
+            "description": null,
+            "name_long": "Tree cover, broadleaved, deciduous, closed (>40%)",
+            "name_short": null
+          },
+          {
+            "code": 62,
+            "color": "#A3C329",
+            "description": null,
+            "name_long": "Tree cover, broadleaved, deciduous, open (15-40%)",
+            "name_short": null
+          },
+          {
+            "code": 70,
+            "color": "#003E0C",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, evergreen, closed to open (>15%)",
+            "name_short": null
+          },
+          {
+            "code": 71,
+            "color": "#003E0C",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, evergreen, closed (>40%)",
+            "name_short": null
+          },
+          {
+            "code": 72,
+            "color": "#00500F",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, evergreen, open (15-40%)",
+            "name_short": null
+          },
+          {
+            "code": 80,
+            "color": "#00500F",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, deciduous, closed to open (>15%)",
+            "name_short": null
+          },
+          {
+            "code": 81,
+            "color": "#00500F",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, deciduous, closed (>40%)",
+            "name_short": null
+          },
+          {
+            "code": 82,
+            "color": "#006313",
+            "description": null,
+            "name_long": "Tree cover, needleleaved, deciduous, open (15-40%)",
+            "name_short": null
+          },
+          {
+            "code": 90,
+            "color": "#787F1B",
+            "description": null,
+            "name_long": "Tree cover, mixed leaf type (broadleaved and needleleaved)",
+            "name_short": null
+          },
+          {
+            "code": 100,
+            "color": "#8A9C21",
+            "description": null,
+            "name_long": "Mosaic tree and shrub (>50%) / herbaceous cover (<50%)",
+            "name_short": null
+          },
+          {
+            "code": 110,
+            "color": "#D09022",
+            "description": null,
+            "name_long": "Mosaic herbaceous cover (>50%) / tree and shrub (<50%)",
+            "name_short": null
+          },
+          {
+            "code": 120,
+            "color": "#A86019",
+            "description": null,
+            "name_long": "Shrubland",
+            "name_short": null
+          },
+          {
+            "code": 121,
+            "color": "#874913",
+            "description": null,
+            "name_long": "Shrubland evergreen",
+            "name_short": null
+          },
+          {
+            "code": 122,
+            "color": "#A86019",
+            "description": null,
+            "name_long": "Shrubland deciduous",
+            "name_short": null
+          },
+          {
+            "code": 130,
+            "color": "#FFAC42",
+            "description": null,
+            "name_long": "Grassland",
+            "name_short": null
+          },
+          {
+            "code": 140,
+            "color": "#FFD9D1",
+            "description": null,
+            "name_long": "Lichens and mosses",
+            "name_short": null
+          },
+          {
+            "code": 150,
+            "color": "#FFE7B0",
+            "description": null,
+            "name_long": "Sparse vegetation (tree, shrub, herbaceous cover) (<15%)",
+            "name_short": null
+          },
+          {
+            "code": 151,
+            "color": "#FFC16A",
+            "description": null,
+            "name_long": "Sparse trees (<15%)",
+            "name_short": null
+          },
+          {
+            "code": 152,
+            "color": "#FFCC7C",
+            "description": null,
+            "name_long": "Sparse shrub (<15%)",
+            "name_short": null
+          },
+          {
+            "code": 153,
+            "color": "#FFE7B0",
+            "description": null,
+            "name_long": "Sparse herbaceous cover (<15%)",
+            "name_short": null
+          },
+          {
+            "code": 160,
+            "color": "#00785B",
+            "description": null,
+            "name_long": "Tree cover, flooded, fresh or brakish water",
+            "name_short": null
+          },
+          {
+            "code": 170,
+            "color": "#009577",
+            "description": null,
+            "name_long": "Tree cover, flooded, saline water",
+            "name_short": null
+          },
+          {
+            "code": 180,
+            "color": "#00DB84",
+            "description": null,
+            "name_long": "Shrub or herbaceous cover, flooded, fresh/saline/brakish water",
+            "name_short": null
+          },
+          {
+            "code": 190,
+            "color": "#E60017",
+            "description": null,
+            "name_long": "Urban areas",
+            "name_short": null
+          },
+          {
+            "code": 200,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Bare areas",
+            "name_short": null
+          },
+          {
+            "code": 201,
+            "color": "#DCDCDC",
+            "description": null,
+            "name_long": "Consolidated bare areas",
+            "name_short": null
+          },
+          {
+            "code": 202,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Unconsolidated bare areas",
+            "name_short": null
+          },
+          {
+            "code": 210,
+            "color": "#0053C4",
+            "description": null,
+            "name_long": "Water bodies",
+            "name_short": null
+          },
+          {
+            "code": 220,
+            "color": "#FFFFFF",
+            "description": null,
+            "name_long": "Permanent snow and ice",
+            "name_short": null
+          }
+        ],
+        "name": "ESA CCI Land Cover",
+        "nodata": {
+          "code": -32768,
+          "color": "#000000",
+          "description": null,
+          "name_long": "No data",
+          "name_short": "No data"
+        }
+      },
+      "nesting": {
+        "-32768": [
+          -32768
+        ],
+        "1": [
+          50,
+          60,
+          61,
+          62,
+          70,
+          71,
+          72,
+          80,
+          81,
+          82,
+          90,
+          100
+        ],
+        "2": [
+          110,
+          120,
+          121,
+          122,
+          130,
+          140,
+          150,
+          151,
+          152,
+          153
+        ],
+        "3": [
+          10,
+          11,
+          12,
+          20,
+          30,
+          40
+        ],
+        "4": [
+          160,
+          170,
+          180
+        ],
+        "5": [
+          190
+        ],
+        "6": [
+          200,
+          201,
+          202,
+          220
+        ],
+        "7": [
+          210
+        ]
+      },
+      "parent": {
+        "key": [
+          {
+            "code": 1,
+            "color": "#787F1B",
+            "description": null,
+            "name_long": "Tree-covered",
+            "name_short": "Tree-covered"
+          },
+          {
+            "code": 2,
+            "color": "#FFAC42",
+            "description": null,
+            "name_long": "Grassland",
+            "name_short": "Grassland"
+          },
+          {
+            "code": 3,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Cropland",
+            "name_short": "Cropland"
+          },
+          {
+            "code": 4,
+            "color": "#00DB84",
+            "description": null,
+            "name_long": "Wetland",
+            "name_short": "Wetland"
+          },
+          {
+            "code": 5,
+            "color": "#E60017",
+            "description": null,
+            "name_long": "Artificial",
+            "name_short": "Artificial"
+          },
+          {
+            "code": 6,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Other land",
+            "name_short": "Bare land"
+          },
+          {
+            "code": 7,
+            "color": "#0053C4",
+            "description": null,
+            "name_long": "Water body",
+            "name_short": "Water body"
+          }
+        ],
+        "name": "Custom Land Cover",
+        "nodata": {
+          "code": -32768,
+          "color": "#000000",
+          "description": null,
+          "name_long": "No data",
+          "name_short": "No data"
+        }
+      }
+    },
+    "trans_matrix": {
+      "definitions": {
+        "name": "Degradation matrix",
+        "transitions": [
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "improvement"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "degradation"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 1,
+              "color": "#787F1B",
+              "description": null,
+              "name_long": "Tree-covered",
+              "name_short": "Tree-covered"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 2,
+              "color": "#FFAC42",
+              "description": null,
+              "name_long": "Grassland",
+              "name_short": "Grassland"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 3,
+              "color": "#FFFB6E",
+              "description": null,
+              "name_long": "Cropland",
+              "name_short": "Cropland"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 4,
+              "color": "#00DB84",
+              "description": null,
+              "name_long": "Wetland",
+              "name_short": "Wetland"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 5,
+              "color": "#E60017",
+              "description": null,
+              "name_long": "Artificial",
+              "name_short": "Artificial"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 6,
+              "color": "#FFF3D7",
+              "description": null,
+              "name_long": "Other land",
+              "name_short": "Bare land"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          },
+          {
+            "final": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "initial": {
+              "code": 7,
+              "color": "#0053C4",
+              "description": null,
+              "name_long": "Water body",
+              "name_short": "Water body"
+            },
+            "meaning": "stable"
+          }
+        ]
+      },
+      "legend": {
+        "key": [
+          {
+            "code": 1,
+            "color": "#787F1B",
+            "description": null,
+            "name_long": "Tree-covered",
+            "name_short": "Tree-covered"
+          },
+          {
+            "code": 2,
+            "color": "#FFAC42",
+            "description": null,
+            "name_long": "Grassland",
+            "name_short": "Grassland"
+          },
+          {
+            "code": 3,
+            "color": "#FFFB6E",
+            "description": null,
+            "name_long": "Cropland",
+            "name_short": "Cropland"
+          },
+          {
+            "code": 4,
+            "color": "#00DB84",
+            "description": null,
+            "name_long": "Wetland",
+            "name_short": "Wetland"
+          },
+          {
+            "code": 5,
+            "color": "#E60017",
+            "description": null,
+            "name_long": "Artificial",
+            "name_short": "Artificial"
+          },
+          {
+            "code": 6,
+            "color": "#FFF3D7",
+            "description": null,
+            "name_long": "Other land",
+            "name_short": "Bare land"
+          },
+          {
+            "code": 7,
+            "color": "#0053C4",
+            "description": null,
+            "name_long": "Water body",
+            "name_short": "Water body"
+          }
+        ],
+        "name": "Custom Land Cover",
+        "nodata": {
+          "code": -32768,
+          "color": "#000000",
+          "description": null,
+          "name_long": "No data",
+          "name_short": "No data"
+        }
+      },
+      "name": "Land cover transition definition matrix"
+    },
+    "year_final": 2020,
+    "year_initial": 2001
+  },
+  "progress": 100,
+  "start_date": "2025-02-09T13:36:13.245514+00:00",
+  "status": "DOWNLOADED",
+  "local_context": {
+    "base_dir": "C:\\Users\\saurabh\\trends_earth_data",
+    "area_of_interest_name": "shape-lon75.721lat26.121-buffer-10.000"
+  },
+  "results": {
+    "name": "land_cover",
+    "rasters": {
+      "Int16": {
+        "uri": {
+          "uri": "C:\\Users\\saurabh\\trends_earth_data\\datasets\\093756e3-7610-4778-833e-eb26dc504016\\none_land-cover_shape-lon75.721lat26.121-buffer-10.000_Int16.tif",
+          "etag": null
+        },
+        "bands": [
+          {
+            "name": "Land cover (degradation)",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "trans_matrix": "{\"legend\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"name\": \"Land cover transition definition matrix\", \"definitions\": {\"transitions\": [{\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"improvement\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"degradation\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, \"meaning\": \"stable\"}, {\"initial\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"final\": {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}, \"meaning\": \"stable\"}], \"name\": \"Degradation matrix\"}}",
+              "year_final": 2020,
+              "year_initial": 2001
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": true
+          },
+          {
+            "name": "Land cover (ESA classes)",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"ESA CCI Land Cover\", \"key\": [{\"code\": 10, \"name_short\": null, \"name_long\": \"Cropland, rainfed\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 11, \"name_short\": null, \"name_long\": \"Herbaceous cover\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 12, \"name_short\": null, \"name_long\": \"Tree or shrub cover\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 20, \"name_short\": null, \"name_long\": \"Cropland, irrigated or post-flooding\", \"description\": null, \"color\": \"#76F1EF\"}, {\"code\": 30, \"name_short\": null, \"name_long\": \"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)\", \"description\": null, \"color\": \"#DAEC6C\"}, {\"code\": 40, \"name_short\": null, \"name_long\": \"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)\", \"description\": null, \"color\": \"#CDC369\"}, {\"code\": 50, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, evergreen, closed to open (>15%)\", \"description\": null, \"color\": \"#006313\"}, {\"code\": 60, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, closed to open (>15%)\", \"description\": null, \"color\": \"#009E1D\"}, {\"code\": 61, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, closed (>40%)\", \"description\": null, \"color\": \"#009E1D\"}, {\"code\": 62, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, open (15-40%)\", \"description\": null, \"color\": \"#A3C329\"}, {\"code\": 70, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, closed to open (>15%)\", \"description\": null, \"color\": \"#003E0C\"}, {\"code\": 71, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, closed (>40%)\", \"description\": null, \"color\": \"#003E0C\"}, {\"code\": 72, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, open (15-40%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 80, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, closed to open (>15%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 81, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, closed (>40%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 82, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, open (15-40%)\", \"description\": null, \"color\": \"#006313\"}, {\"code\": 90, \"name_short\": null, \"name_long\": \"Tree cover, mixed leaf type (broadleaved and needleleaved)\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 100, \"name_short\": null, \"name_long\": \"Mosaic tree and shrub (>50%) / herbaceous cover (<50%)\", \"description\": null, \"color\": \"#8A9C21\"}, {\"code\": 110, \"name_short\": null, \"name_long\": \"Mosaic herbaceous cover (>50%) / tree and shrub (<50%)\", \"description\": null, \"color\": \"#D09022\"}, {\"code\": 120, \"name_short\": null, \"name_long\": \"Shrubland\", \"description\": null, \"color\": \"#A86019\"}, {\"code\": 121, \"name_short\": null, \"name_long\": \"Shrubland evergreen\", \"description\": null, \"color\": \"#874913\"}, {\"code\": 122, \"name_short\": null, \"name_long\": \"Shrubland deciduous\", \"description\": null, \"color\": \"#A86019\"}, {\"code\": 130, \"name_short\": null, \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 140, \"name_short\": null, \"name_long\": \"Lichens and mosses\", \"description\": null, \"color\": \"#FFD9D1\"}, {\"code\": 150, \"name_short\": null, \"name_long\": \"Sparse vegetation (tree, shrub, herbaceous cover) (<15%)\", \"description\": null, \"color\": \"#FFE7B0\"}, {\"code\": 151, \"name_short\": null, \"name_long\": \"Sparse trees (<15%)\", \"description\": null, \"color\": \"#FFC16A\"}, {\"code\": 152, \"name_short\": null, \"name_long\": \"Sparse shrub (<15%)\", \"description\": null, \"color\": \"#FFCC7C\"}, {\"code\": 153, \"name_short\": null, \"name_long\": \"Sparse herbaceous cover (<15%)\", \"description\": null, \"color\": \"#FFE7B0\"}, {\"code\": 160, \"name_short\": null, \"name_long\": \"Tree cover, flooded, fresh or brakish water\", \"description\": null, \"color\": \"#00785B\"}, {\"code\": 170, \"name_short\": null, \"name_long\": \"Tree cover, flooded, saline water\", \"description\": null, \"color\": \"#009577\"}, {\"code\": 180, \"name_short\": null, \"name_long\": \"Shrub or herbaceous cover, flooded, fresh/saline/brakish water\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 190, \"name_short\": null, \"name_long\": \"Urban areas\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 200, \"name_short\": null, \"name_long\": \"Bare areas\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 201, \"name_short\": null, \"name_long\": \"Consolidated bare areas\", \"description\": null, \"color\": \"#DCDCDC\"}, {\"code\": 202, \"name_short\": null, \"name_long\": \"Unconsolidated bare areas\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 210, \"name_short\": null, \"name_long\": \"Water bodies\", \"description\": null, \"color\": \"#0053C4\"}, {\"code\": 220, \"name_short\": null, \"name_long\": \"Permanent snow and ice\", \"description\": null, \"color\": \"#FFFFFF\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"-32768\": [-32768], \"1\": [50, 60, 61, 62, 70, 71, 72, 80, 81, 82, 90, 100], \"2\": [110, 120, 121, 122, 130, 140, 150, 151, 152, 153], \"3\": [10, 11, 12, 20, 30, 40], \"4\": [160, 170, 180], \"5\": [190], \"6\": [200, 201, 202, 220], \"7\": [210]}}",
+              "year": 2001
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover (ESA classes)",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"ESA CCI Land Cover\", \"key\": [{\"code\": 10, \"name_short\": null, \"name_long\": \"Cropland, rainfed\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 11, \"name_short\": null, \"name_long\": \"Herbaceous cover\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 12, \"name_short\": null, \"name_long\": \"Tree or shrub cover\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 20, \"name_short\": null, \"name_long\": \"Cropland, irrigated or post-flooding\", \"description\": null, \"color\": \"#76F1EF\"}, {\"code\": 30, \"name_short\": null, \"name_long\": \"Mosaic cropland (>50%) / natural vegetation (tree, shrub, herbaceous cover) (<50%)\", \"description\": null, \"color\": \"#DAEC6C\"}, {\"code\": 40, \"name_short\": null, \"name_long\": \"Mosaic natural vegetation (tree, shrub, herbaceous cover) (>50%) / cropland (<50%)\", \"description\": null, \"color\": \"#CDC369\"}, {\"code\": 50, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, evergreen, closed to open (>15%)\", \"description\": null, \"color\": \"#006313\"}, {\"code\": 60, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, closed to open (>15%)\", \"description\": null, \"color\": \"#009E1D\"}, {\"code\": 61, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, closed (>40%)\", \"description\": null, \"color\": \"#009E1D\"}, {\"code\": 62, \"name_short\": null, \"name_long\": \"Tree cover, broadleaved, deciduous, open (15-40%)\", \"description\": null, \"color\": \"#A3C329\"}, {\"code\": 70, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, closed to open (>15%)\", \"description\": null, \"color\": \"#003E0C\"}, {\"code\": 71, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, closed (>40%)\", \"description\": null, \"color\": \"#003E0C\"}, {\"code\": 72, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, evergreen, open (15-40%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 80, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, closed to open (>15%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 81, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, closed (>40%)\", \"description\": null, \"color\": \"#00500F\"}, {\"code\": 82, \"name_short\": null, \"name_long\": \"Tree cover, needleleaved, deciduous, open (15-40%)\", \"description\": null, \"color\": \"#006313\"}, {\"code\": 90, \"name_short\": null, \"name_long\": \"Tree cover, mixed leaf type (broadleaved and needleleaved)\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 100, \"name_short\": null, \"name_long\": \"Mosaic tree and shrub (>50%) / herbaceous cover (<50%)\", \"description\": null, \"color\": \"#8A9C21\"}, {\"code\": 110, \"name_short\": null, \"name_long\": \"Mosaic herbaceous cover (>50%) / tree and shrub (<50%)\", \"description\": null, \"color\": \"#D09022\"}, {\"code\": 120, \"name_short\": null, \"name_long\": \"Shrubland\", \"description\": null, \"color\": \"#A86019\"}, {\"code\": 121, \"name_short\": null, \"name_long\": \"Shrubland evergreen\", \"description\": null, \"color\": \"#874913\"}, {\"code\": 122, \"name_short\": null, \"name_long\": \"Shrubland deciduous\", \"description\": null, \"color\": \"#A86019\"}, {\"code\": 130, \"name_short\": null, \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 140, \"name_short\": null, \"name_long\": \"Lichens and mosses\", \"description\": null, \"color\": \"#FFD9D1\"}, {\"code\": 150, \"name_short\": null, \"name_long\": \"Sparse vegetation (tree, shrub, herbaceous cover) (<15%)\", \"description\": null, \"color\": \"#FFE7B0\"}, {\"code\": 151, \"name_short\": null, \"name_long\": \"Sparse trees (<15%)\", \"description\": null, \"color\": \"#FFC16A\"}, {\"code\": 152, \"name_short\": null, \"name_long\": \"Sparse shrub (<15%)\", \"description\": null, \"color\": \"#FFCC7C\"}, {\"code\": 153, \"name_short\": null, \"name_long\": \"Sparse herbaceous cover (<15%)\", \"description\": null, \"color\": \"#FFE7B0\"}, {\"code\": 160, \"name_short\": null, \"name_long\": \"Tree cover, flooded, fresh or brakish water\", \"description\": null, \"color\": \"#00785B\"}, {\"code\": 170, \"name_short\": null, \"name_long\": \"Tree cover, flooded, saline water\", \"description\": null, \"color\": \"#009577\"}, {\"code\": 180, \"name_short\": null, \"name_long\": \"Shrub or herbaceous cover, flooded, fresh/saline/brakish water\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 190, \"name_short\": null, \"name_long\": \"Urban areas\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 200, \"name_short\": null, \"name_long\": \"Bare areas\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 201, \"name_short\": null, \"name_long\": \"Consolidated bare areas\", \"description\": null, \"color\": \"#DCDCDC\"}, {\"code\": 202, \"name_short\": null, \"name_long\": \"Unconsolidated bare areas\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 210, \"name_short\": null, \"name_long\": \"Water bodies\", \"description\": null, \"color\": \"#0053C4\"}, {\"code\": 220, \"name_short\": null, \"name_long\": \"Permanent snow and ice\", \"description\": null, \"color\": \"#FFFFFF\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"-32768\": [-32768], \"1\": [50, 60, 61, 62, 70, 71, 72, 80, 81, 82, 90, 100], \"2\": [110, 120, 121, 122, 130, 140, 150, 151, 152, 153], \"3\": [10, 11, 12, 20, 30, 40], \"4\": [160, 170, 180], \"5\": [190], \"6\": [200, 201, 202, 220], \"7\": [210]}}",
+              "year": 2020
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover transitions",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year_final": 2020,
+              "year_initial": 2001
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": true
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2001
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": true
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2002
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2003
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2004
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2005
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2006
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2007
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2008
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2009
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2010
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2011
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2012
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2013
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2014
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2015
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2016
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2017
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2018
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2019
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": false
+          },
+          {
+            "name": "Land cover",
+            "metadata": {
+              "nesting": "{\"parent\": {\"name\": \"UNCCD Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"child\": {\"name\": \"Custom Land Cover\", \"key\": [{\"code\": 1, \"name_short\": \"Tree-covered\", \"name_long\": \"Tree-covered\", \"description\": null, \"color\": \"#787F1B\"}, {\"code\": 2, \"name_short\": \"Grassland\", \"name_long\": \"Grassland\", \"description\": null, \"color\": \"#FFAC42\"}, {\"code\": 3, \"name_short\": \"Cropland\", \"name_long\": \"Cropland\", \"description\": null, \"color\": \"#FFFB6E\"}, {\"code\": 4, \"name_short\": \"Wetland\", \"name_long\": \"Wetland\", \"description\": null, \"color\": \"#00DB84\"}, {\"code\": 5, \"name_short\": \"Artificial\", \"name_long\": \"Artificial\", \"description\": null, \"color\": \"#E60017\"}, {\"code\": 6, \"name_short\": \"Bare land\", \"name_long\": \"Other land\", \"description\": null, \"color\": \"#FFF3D7\"}, {\"code\": 7, \"name_short\": \"Water body\", \"name_long\": \"Water body\", \"description\": null, \"color\": \"#0053C4\"}], \"nodata\": {\"code\": -32768, \"name_short\": \"No data\", \"name_long\": \"No data\", \"description\": null, \"color\": \"#000000\"}}, \"nesting\": {\"1\": [1], \"2\": [2], \"3\": [3], \"4\": [4], \"5\": [5], \"6\": [6], \"7\": [7], \"-32768\": [-32768]}}",
+              "year": 2020
+            },
+            "no_data_value": -32768,
+            "activated": true,
+            "add_to_map": true
+          }
+        ],
+        "datatype": "Int16",
+        "filetype": "COG",
+        "extent": [
+          75.01388888888889,
+          25.586111111111112,
+          76.43055555555556,
+          26.658333333333335
+        ],
+        "type": "One file raster"
+      }
+    },
+    "uri": {
+      "uri": "C:\\Users\\saurabh\\trends_earth_data\\datasets\\093756e3-7610-4778-833e-eb26dc504016\\none_land-cover_shape-lon75.721lat26.121-buffer-10.000_Int16.tif",
+      "etag": null
+    },
+    "data": {},
+    "type": "RasterResults"
+  },
+  "task_name": null,
+  "task_notes": null,
+  "script": {
+    "id": "471982a8-94e2-4a21-af77-ed4f02e2266b",
+    "run_mode": "remote",
+    "name": "land-cover",
+    "slug": "land-cover-2-1-16",
+    "execution_callable": "",
+    "version": "2.1.16",
+    "description": "",
+    "name_readable": "",
+    "additional_configuration": {}
+  },
+  "end_date": "2025-02-09T13:36:48.153786+00:00",
+  "user_id": "c38c88e6-1f2a-443c-861d-fe27686fa854"
+}
