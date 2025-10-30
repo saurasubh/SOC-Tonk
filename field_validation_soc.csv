@@ -1,0 +1,31 @@
+Sample ID,LULC Class,Degradation Hotspot,Latitude (°N),Longitude (°E),Measured SOC (kg C m⁻²),Trend.Earth SOC (kg C m⁻²),Residual (kg C m⁻²)
+TNK-01,Rainfed Cropland,Low,26.18,75.72,1.12,1.05,0.07
+TNK-02,Rainfed Cropland,Low,26.20,75.68,0.98,0.92,0.06
+TNK-03,Rainfed Cropland,Stable,26.15,75.80,1.45,1.38,0.07
+TNK-04,Irrigated Cropland,Stable,26.22,75.75,1.68,1.60,0.08
+TNK-05,Irrigated Cropland,Stable,26.19,75.78,1.74,1.70,0.04
+TNK-06,Urban Fringe,High,26.17,75.79,0.45,0.38,0.07
+TNK-07,Urban Fringe,High,26.16,75.81,0.39,0.32,0.07
+TNK-08,Sparse Vegetation,Low,26.25,75.65,0.61,0.48,0.13
+TNK-09,Sparse Vegetation,Low,26.27,75.63,0.55,0.44,0.11
+TNK-10,Grassland,Stable,26.30,75.70,1.05,0.98,0.07
+TNK-11,Grassland,Stable,26.29,75.72,1.08,1.02,0.06
+TNK-12,Mining Area,High,26.14,75.74,0.28,0.22,0.06
+TNK-13,Mining Area,High,26.13,75.76,0.25,0.20,0.05
+TNK-14,Rainfed Cropland,Low,26.21,75.67,1.03,0.95,0.08
+TNK-15,Rainfed Cropland,Low,26.23,75.69,0.97,0.90,0.07
+TNK-16,Stable Cropland,Stable,26.10,75.82,1.52,1.48,0.04
+TNK-17,Stable Cropland,Stable,26.11,75.83,1.49,1.44,0.05
+TNK-18,Sparse Vegetation,Stable,26.28,75.64,0.72,0.60,0.12
+TNK-19,Sparse Vegetation,Stable,26.26,75.66,0.68,0.56,0.12
+TNK-20,Water-adjacent,Stable,26.24,75.77,1.35,1.28,0.07
+TNK-21,Water-adjacent,Stable,26.25,75.78,1.38,1.32,0.06
+TNK-22,Urban Expansion,High,26.18,75.80,0.42,0.35,0.07
+TNK-23,Urban Expansion,High,26.17,75.82,0.38,0.30,0.08
+TNK-24,Rainfed Cropland,Low,26.12,75.73,1.08,1.00,0.08
+TNK-25,Rainfed Cropland,Low,26.14,75.71,1.05,0.97,0.08
+TNK-26,Grassland,Stable,26.31,75.68,1.10,1.05,0.05
+TNK-27,Grassland,Stable,26.32,75.70,1.12,1.07,0.05
+TNK-28,Mining Buffer,High,26.15,75.75,0.35,0.28,0.07
+TNK-29,Mining Buffer,High,26.16,75.77,0.32,0.25,0.07
+TNK-30,Stable Cropland,Stable,26.09,75.81,1.55,1.50,0.05
